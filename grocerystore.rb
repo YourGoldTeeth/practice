@@ -3,7 +3,6 @@ require_relative 'groceryclasses'
 @categories = []
 @products = []
 
-
 # ***********
 # home screen
 # ***********
