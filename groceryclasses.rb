@@ -19,6 +19,26 @@ class Product
 		@cost = cost
 		@sell_price = sell_price
 	end	
+
+	def change_name(new_name)
+		@name = new_name
+	end	
+
+	def change_category(new_category)
+		@category = new_category
+	end	
+
+	def change_quantity(new_quantity)
+		@quantity = new_quantity
+	end	
+
+	def change_cost(new_cost)
+		@cost = new_cost
+	end	
+
+	def change_sell_price(new_sell_price)
+		@sell_price = new_sell_price
+	end	
 end	
 
 # class Category
